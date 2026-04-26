@@ -1,18 +1,36 @@
-## Getting Started
+## Program requiremnts
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+1. Functional Requirements
+The system must provide the following options:
 
-## Folder Structure
+a. Register Student
 
-The workspace contains two folders by default, where:
+Capture student details such as:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Student name
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
+b. View Students
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Display all registered students.
+
+
+
+c. Deregister Student
+
+Allow the user to remove a student using the student ID.
+
+
+
+Exit Application
+
+Safely terminate the program.
+
+
+2. Program Behavior
+
+The system must display a menu repeatedly until the user selects the exit option.
+Input must be taken from the user via the keyboard.
+Appropriate messages must be displayed for successful actions and error cases (e.g. student not found).
+
