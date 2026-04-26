@@ -37,7 +37,7 @@ public class App {
                     break;
                 }
                
-                /*case 2: {
+                case 2: {
                    
                     if(students.isEmpty()) {
                         System.out.println("\nThere are currently no students enrolled, please register a student.\n");
@@ -53,7 +53,7 @@ public class App {
                     break;
                 }
                
-                case 3: {
+                /*case 3: {
                    
                     if(students.isEmpty()) {
                         System.out.println("\nThere are currently no students enrolled, please register a student.\n");
