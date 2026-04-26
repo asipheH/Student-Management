@@ -21,7 +21,7 @@ public class App {
            
             Scanner scanner = new Scanner(System.in);
             Scanner scanner2 = new Scanner(System.in);
-            //Scanner scanner3 = new Scanner(System.in);
+            Scanner scanner3 = new Scanner(System.in);
            
             try {
                 option =  scanner.nextInt();
@@ -53,7 +53,7 @@ public class App {
                     break;
                 }
                
-                /*case 3: {
+                case 3: {
                    
                     if(students.isEmpty()) {
                         System.out.println("\nThere are currently no students enrolled, please register a student.\n");
@@ -94,7 +94,7 @@ public class App {
                     scanner3.close();
                     System.out.println("\nGoodbye......");
                     break;
-                }*/
+                }
                 default:
                     System.out.println("\nPlease choose a correct option.\n");
                 }
